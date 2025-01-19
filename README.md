@@ -1,0 +1,2 @@
+# Loose Equality Bug in JavaScript
+This repository demonstrates a common error in JavaScript related to loose equality (==) and how it can lead to unexpected behavior when comparing values to null.  The bug arises when loose equality is used with null, allowing for type coercion that can lead to incorrect comparisons, causing logic errors.  Strict equality (===) should be used instead for safer comparisons.
